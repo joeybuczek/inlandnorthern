@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+html > body {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*
+  Inland Northern Blue:
+    rgb(22, 49, 84) or #163154
+*/
+
+.header {
+  background-color: #163154;
+  padding: 10px;
+}
+.header h1 {
+  color: white;
+  font-family: "Franklin Gothic", Arial, sans-serif;
+  margin: 0px;
+}
+
+.container {
+  padding: 10px;
+}
+
+.main-content {
+  background-color: rgb(255, 208, 53);
+}
+.main-content h3 {
+  text-align: center;
+}
