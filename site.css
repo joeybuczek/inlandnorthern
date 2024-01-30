@@ -11,11 +11,14 @@ html > body {
 /*
   Inland Northern Blue:
     rgb(22, 49, 84) or #163154
+  Inland Northern "Wheat":
+    rgb(203, 172, 74) or #cbac4a
 */
 
 .header {
   background-color: #163154;
-  padding: 10px;
+  padding: 5px 40px 0px;
+  text-align: center;
 }
 .header h1 {
   color: white;
@@ -27,9 +30,12 @@ html > body {
   padding: 10px;
 }
 
-.main-content {
-  background-color: rgb(255, 208, 53);
+.message-banner {
+  background-color: #cbac4a;
+  border-bottom: 8px solid #163154;
+  padding: 5px 40px;
 }
-.main-content h3 {
+.message-banner h3 {
   text-align: center;
+  margin: 0px;
 }
