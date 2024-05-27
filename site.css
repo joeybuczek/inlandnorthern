@@ -15,6 +15,32 @@ html > body {
     rgb(203, 172, 74) or #cbac4a
 */
 
+.color-in-blue {
+  color: #163154;
+}
+.color-in-wheat {
+  color: #cbac4a;
+}
+.color-white {
+  color: white;
+}
+.bgcolor-in-blue {
+  background-color: #163154;
+}
+.bgcolor-in-wheat {
+  background-color: #cbac4a;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+.mb-2 {
+  margin-bottom: 2px;
+}
+.mb-4 {
+  margin-bottom: 4px;
+}
+
 .header {
   background-color: #163154;
   padding: 5px 0px 0px;
@@ -32,16 +58,58 @@ html > body {
   width: 50%;
 }
 
+.sticky-footer {
+  background-color: #163154;
+  bottom: 0;
+  color: white;
+  left: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.copyright-notice {
+  font-size: 0.75em;
+  text-align: center;
+}
+
+.text-center {
+  text-align: center;
+}
+.text-justify {
+  text-align: justify;
+}
+
 .container {
   padding: 10px;
 }
 
-.message-banner {
+.site-banner {
   background-color: #cbac4a;
   border-bottom: 8px solid #163154;
   padding: 5px 40px;
 }
-.message-banner h3 {
+.site-banner {
   text-align: center;
   margin: 0px;
+}
+.site-banner a {
+  color: #163154;
+  font-weight: bold;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.site-banner a:hover {
+  color: white;
+}
+
+.main-content {
+  padding: 0px 40px 100px;
+}
+
+.link-menu li {
+  margin: 10px 0px;
+}
+
+.spaced-list li {
+  margin-top: 10px;
 }
