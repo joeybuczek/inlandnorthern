@@ -165,7 +165,7 @@ html > body {
 
 .system-map {
   border: 2px solid #163154;
-  max-width: 800px;
+  max-width: 600px;
   min-width: 150px;
   object-fit: cover;
   width: 100%;
