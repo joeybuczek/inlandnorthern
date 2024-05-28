@@ -100,11 +100,21 @@ html > body {
   text-align: center;
 }
 
-.text-center {
+.text-center,
+.centered {
   text-align: center;
 }
 .text-justify {
   text-align: justify;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .container {
@@ -148,6 +158,14 @@ html > body {
 
 .concept-art {
   max-width: 600px;
+  min-width: 150px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.system-map {
+  border: 6px double rgba(22, 49, 84, 0.5);
+  max-width: 800px;
   min-width: 150px;
   object-fit: cover;
   width: 100%;
