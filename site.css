@@ -8,6 +8,10 @@ html > body {
   padding: 0px;
 }
 
+h1 {
+  font-size: 16pt;
+}
+
 /*
   Inland Northern Blue:
     rgb(22, 49, 84) or #163154
